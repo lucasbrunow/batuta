@@ -14,9 +14,9 @@ public class GreetingController {
         return "greeting";
     }
     
-    @RequestMapping("cadastro")
-    public String cadastro(Model model){
-    	return "cadastro";
+    @RequestMapping("/")
+    public String index(Model model){
+    	return "index";
     }
 
 }
